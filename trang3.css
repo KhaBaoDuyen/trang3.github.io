@@ -1,0 +1,212 @@
+body{
+     width: 100%;
+     margin: 0px;
+     background-color: rgb(101, 93, 93);
+     height: auto;
+}
+
+header{
+     background-image: url('img/z5087457515197_d7cb42e401a00ebf366e7aadf48e80f0.png') ;
+     width: 100%;
+     background-size: 100%;
+     height: 30vmax;
+}
+header>h1{
+     color: rgba(255, 255, 255, 0.885);
+     position: absolute;
+     top: 10vmax;
+     left: 10px;
+     font-size: 10vmax; 
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+     
+}
+
+.anh>img{
+    width: 50vmax;
+    height: auto;
+    position: absolute;
+    right: 10px;
+    top: 23vmax;
+}
+
+/* ----section---- */
+
+
+
+section h2{
+   
+      color: white;
+      box-shadow: 0 -10px 0 rgb(65, 58, 58), 0 10px 0 rgb(67, 63, 63);
+      width: 50vmax;
+      font-size: 5vmax;
+      padding:1vmax 1vmax 2vmax 2vmax ;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-top:17vmax;
+      letter-spacing: 3px;
+      word-spacing: 4px;
+      margin-right: 1%;
+}
+.menu{
+    display: flex;
+    
+}
+.menu{
+    width: 100%;
+    display: inline-block;
+    height: 43vmax; ;
+}
+.menu .box1{
+    width: 30%;
+    position: absolute;
+    padding-block: 10px;
+    left: 10%;
+    display: block;
+     transition: 0.5s ease-in;
+    height: 35vmax; 
+    z-index: 2; 
+     opacity: 0.6; 
+
+}
+.menu .box1:hover{
+     filter: none;
+    transform:scale(1.2) ;
+    zoom: 7%;
+    z-index: 4;
+    opacity: 1; 
+}
+.menu .box2:hover{
+     filter: none;
+     transform: scale(1.2);
+     zoom: 10%;
+     z-index: 4;
+     opacity: 1; 
+}
+.menu .box3:hover{
+     filter: none;
+     transform: scale(1.2);
+     zoom: 10%;
+     border-radius: 25px;
+}
+.menu .box2{
+    width: 30%;
+      position: absolute;
+    right: 10%;
+    opacity: 0.5;  /*  độ trong suốt của ảnh */
+    height: 35vmax; 
+      transition: 0.5s ease-in;
+     cursor: pointer;
+     z-index: 2; 
+
+}
+.menu img{
+    width: 100%; 
+    border-radius: 30px;
+    height: 100%; 
+}
+.menu img:hover{
+    width: 100%; 
+    border-radius: 30px;
+    height: auto; 
+}
+.menu .box3{
+        width: 30%;
+          position: absolute;
+        right: 35%;
+        margin: 2vmax;
+       /*    filter: grayscale(70%);   phủi màu xám cho ảnh */
+          transition: 0.5s ease-in;
+         cursor: pointer;
+        height: 35vmax;
+       z-index: 3; 
+  
+      
+    }
+.ke2>.trai{
+    position: absolute;
+     background-color: rgb(65, 58, 58); 
+    float: left;
+    padding: 4px;
+    width: 40%;
+
+}
+.ke2 .phai{
+    padding: 4px;
+        margin-right: 0px;
+        background-color: rgb(65, 58, 58);
+        width: 40%;
+        }
+/*  -------  article -------- */
+article{
+    margin-top: 5vmax;
+    margin-bottom: 5vmax;
+}
+.vmenu a .a1{
+    margin-left: 4vmax;
+    height: 27vmax ;
+    width: 100%;
+   border-radius: 100%;
+   box-shadow:  -50px 15px 0px #9d9797;
+}
+.vmenu a .a2{
+    height: 30vmax ;
+    width: 37%;
+   border-radius: 100%;
+   box-shadow:  50px 13px 0px #9d9797;
+}
+   .vmenu{
+   display: flex; 
+    width: 80%;
+    margin-left: 7%;
+    position: relative;
+    height: 35vmax;
+}
+ .vmenu a{
+      height: max-content;
+      text-decoration: none;
+ }  
+ .vmenu .p1{
+     margin-right: 50%;
+      font-size: 5vmax;
+      color: black;
+ }
+ .vmenu .chu2 .p1{
+    font-size: 5vmax;
+    color: black;
+ }
+ .vmenu .p2{
+     font-size: 3vmax  ;
+     color: gray;
+ }
+.vmenu .chu{
+/*     position: absolute; */
+    width: 50%;
+    margin-left: 20%;
+    padding-top: 10%;
+  }
+.vmenu .chu2{
+/*     position: absolute; */
+    width: 60%;
+    padding-top: 10%;
+}
+    
+.vmenu .a2{
+    position: absolute;
+    right: 1vmax;
+    
+}
+/* --- footer----------- */
+
+footer{
+    background-image: url('img/z5090687023062_eb0cae3cc296b22055aab85cbecbeb1c.jpg');
+    height: 25vmax;
+    background-size: cover;
+    font-size: 4vmax;
+ /*    justify-content: center; */ /*     --  căn giữ theo chiều ngang-- phải có display flex */ 
+     align-items: center; /*     --  căn giữ theo chiều dọc--*/ 
+    display: flex;
+}
+footer .ft{
+    margin-left: 10%;
+    font-family:sans-serif;
+}
